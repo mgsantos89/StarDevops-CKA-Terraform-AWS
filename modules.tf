@@ -22,9 +22,11 @@ module "iam-user-3" {
 module "iam-group-adm" {
     source = "./modules/iam-group"
     grupo =  "Administradores"
+    policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
 }
 
 module "iam-group-developers" {
     source = "./modules/iam-group"
     grupo =  "Desenvolvedores"
+    policy_arn = "arn:aws:iam::aws:policy/AWSLambda_FullAccess"
 }
