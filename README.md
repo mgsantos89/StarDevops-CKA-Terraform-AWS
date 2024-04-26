@@ -21,4 +21,27 @@ Dentro do IAM temos:
 
 Resumindo, usuários representam identidades individuais, grupos são coleções de usuários com permissões similares e funções são utilizadas para delegar temporariamente permissões específicas para diferentes entidades.
 
+# AWS Organizations
+
+
+O AWS Organizations é um serviço que serve para simplificar a gestão de várias contas da AWS. Em resumo, o AWS Organizations permite:
+
+- Consolidação de Faturas: Agrupar várias contas da AWS em uma única fatura consolidada, facilitando o gerenciamento financeiro.
+- Centralização de Políticas de Segurança: Aplicar políticas de segurança consistentes em todas as contas, garantindo conformidade e padronização.
+- Automação de Provisionamento de Contas: Automatizar a criação de novas contas com configurações predefinidas, permitindo rápida escalabilidade e conformidade.
+- Gestão Hierárquica: Organizar contas em uma hierarquia para refletir a estrutura organizacional da empresa, facilitando a gestão e o controle.
+- Controle de Acesso Centralizado: Facilitar a gestão de permissões e acessos entre contas, permitindo um controle mais granular e centralizado sobre recursos e serviços.
+
+Em essência, o AWS Organizations é projetado para simplificar e fortalecer a gestão de múltiplas contas da AWS, proporcionando eficiência operacional, segurança aprimorada e controle centralizado.
+
 # IAM Identity Center
+
+O IAM Identity Center é uma solução da AWS projetada para oferecer uma experiência unificada e simplificada para gerenciar identidades, acesso e segurança em toda a infraestrutura da AWS. Em resumo, o IAM Identity Center serve para:
+
+- Centralização do Gerenciamento de Identidade: Oferece uma interface centralizada para gerenciar usuários, grupos, funções e permissões em toda a organização, facilitando a administração de identidades.
+- Integração com Serviços AWS: Integra-se perfeitamente com outros serviços da AWS, permitindo uma gestão eficiente e consistente de acesso e segurança em todos os serviços e recursos.
+- Simplificação de Políticas de Segurança: Permite a definição e aplicação de políticas de segurança granulares e personalizadas para garantir que apenas as pessoas certas tenham acesso aos recursos adequados.
+- Monitoramento e Auditoria: Facilita o monitoramento e a auditoria de atividades de usuários e recursos, fornecendo insights valiosos sobre a segurança da infraestrutura.
+- Aprimoramento da Segurança: Ajuda a fortalecer a segurança da infraestrutura AWS, garantindo que as melhores práticas de segurança sejam implementadas e mantidas em toda a organização.
+
+Em resumo, o IAM Identity Center simplifica e fortalece o gerenciamento de identidade, acesso e segurança na AWS, proporcionando uma experiência unificada e eficiente para administradores e usuários.
