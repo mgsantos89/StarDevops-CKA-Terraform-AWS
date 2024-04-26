@@ -11,6 +11,5 @@ variable "tags" {
 variable "prefixo_projeto" {
   type        = string
   description = "Prefixo para nome de recursos"
-
-
 }
+
