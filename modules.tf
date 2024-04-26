@@ -1,3 +1,16 @@
+module "iam-group-adm" {
+    source = "./modules/iam-group"
+    grupo =  "Administradores"
+    policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
+}
+
+module "iam-group-developers" {
+    source = "./modules/iam-group"
+    grupo =  "Desenvolvedores"
+    policy_arn = "arn:aws:iam::aws:policy/AWSLambda_FullAccess"
+}
+
+
 module "iam-user-1" {
     source = "./modules/iam-user"
     usuario_iam = "Marco"
@@ -19,14 +32,21 @@ module "iam-user-3" {
     tags = var.tags
 }
 
-module "iam-group-adm" {
-    source = "./modules/iam-group"
-    grupo =  "Administradores"
-    policy_arn = "arn:aws:iam::aws:policy/AdministratorAccess"
+module "user-1-group-membership"{
+    source = "./modules/iam-group-membership"
+    usuario_iam = "Marco"
+    grupo = ["Administradores"]
 }
 
-module "iam-group-developers" {
-    source = "./modules/iam-group"
-    grupo =  "Desenvolvedores"
-    policy_arn = "arn:aws:iam::aws:policy/AWSLambda_FullAccess"
+module "user-2-group-membership"{
+    source = "./modules/iam-group-membership"
+    usuario_iam = "Bruna"
+    grupo = ["Administradores"]
 }
+
+module "user-3-group-membership"{
+    source = "./modules/iam-group-membership"
+    usuario_iam = "Antonio"
+    grupo = ["Desenvolvedores"]
+}
+
