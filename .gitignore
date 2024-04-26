@@ -1,0 +1,23 @@
+# Arquivos de estado do Terraform
+*.tfstate
+*.tfstate.*
+terraform.tfstate.backup
+
+# Arquivos de plano de execução do Terraform
+*.tfplan
+
+# Diretório .terraform gerado pelo Terraform
+.terraform/
+
+# Logs e arquivos temporários
+*.log
+*.tmp
+
+# Arquivos de configuração do IDE ou editor
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+plano
+.terraform.lock.hcl
+dplano
