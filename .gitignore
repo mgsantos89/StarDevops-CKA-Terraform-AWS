@@ -21,3 +21,5 @@ terraform.tfstate.backup
 plano
 .terraform.lock.hcl
 dplano
+
+notaspessoais.txt

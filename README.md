@@ -45,3 +45,15 @@ O IAM Identity Center é uma solução da AWS projetada para oferecer uma experi
 - Aprimoramento da Segurança: Ajuda a fortalecer a segurança da infraestrutura AWS, garantindo que as melhores práticas de segurança sejam implementadas e mantidas em toda a organização.
 
 Em resumo, o IAM Identity Center simplifica e fortalece o gerenciamento de identidade, acesso e segurança na AWS, proporcionando uma experiência unificada e eficiente para administradores e usuários.
+
+# AWS CLI
+
+O AWS CLI (Command Line Interface) é uma ferramenta de linha de comando que permite interagir e gerenciar os serviços da AWS diretamente a partir do terminal de um computador. Em resumo, o AWS CLI serve para:
+
+- Automatização de Tarefas: Permite automatizar tarefas administrativas e operacionais da AWS, como o provisionamento de recursos, configuração de serviços e implantação de aplicativos.
+- Scripting e Desenvolvimento: Facilita o desenvolvimento de scripts e aplicativos que interagem com os serviços da AWS, possibilitando a criação de soluções personalizadas e automatizadas.
+- Gerenciamento Remoto: Permite gerenciar recursos da AWS remotamente, sem a necessidade de acessar o Console de Gerenciamento da AWS, o que pode ser útil em ambientes de linha de comando ou em automações.
+- Integração com Outras Ferramentas: Pode ser integrado com outras ferramentas e pipelines de desenvolvimento, permitindo uma integração contínua e entrega contínua (CI/CD) mais eficientes.
+- Acesso Programático: Oferece acesso programático aos serviços da AWS, permitindo que aplicativos e scripts acessem e manipulem recursos AWS de forma programática.
+
+Em resumo, o AWS CLI é uma ferramenta poderosa para administradores, desenvolvedores e operadores que desejam gerenciar e interagir com os serviços da AWS de forma eficiente e programática a partir da linha de comando.
