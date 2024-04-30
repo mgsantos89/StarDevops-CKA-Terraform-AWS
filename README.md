@@ -56,3 +56,15 @@ O AWS CLI (Command Line Interface) é uma ferramenta de linha de comando que per
 - Acesso Programático: Oferece acesso programático aos serviços da AWS, permitindo que aplicativos e scripts acessem e manipulem recursos AWS de forma programática.
 
 Em resumo, o AWS CLI é uma ferramenta poderosa para administradores, desenvolvedores e operadores que desejam gerenciar e interagir com os serviços da AWS de forma eficiente e programática a partir da linha de comando.
+
+# AWS CloudShell
+
+Em resumo, o AWS CloudShell é um ambiente de linha de comando interativo baseado em navegador que oferece acesso pré-configurado a uma interface de linha de comando (CLI) para interagir com os serviços da AWS. Ele serve para:
+
+- Acesso Rápido: Oferece um acesso rápido e conveniente à AWS CLI, bem como a diversas outras ferramentas e linguagens de programação, diretamente em um navegador web, sem a necessidade de configuração adicional.
+- Ambiente Pré-configurado: Vem pré-configurado com as credenciais de segurança da sua conta da AWS, eliminando a necessidade de configurar manualmente a autenticação.
+- Recursos Prontos para Uso: Fornece acesso a uma variedade de recursos pré-instalados, como AWS SDKs, Python, Node.js, Git e outras ferramentas comuns de desenvolvimento e administração.
+- Conveniência em Desenvolvimento e Administração: Facilita o desenvolvimento, a implantação e a administração de recursos da AWS diretamente no navegador, oferecendo uma experiência de linha de comando familiar e eficiente.
+- Ambiente Seguro: Executa em uma instância efêmera e isolada da AWS, garantindo segurança e isolamento para as operações realizadas no CloudShell.
+
+Em resumo, o AWS CloudShell proporciona um ambiente de linha de comando conveniente, seguro e pré-configurado para interagir com os serviços da AWS diretamente no navegador web, tornando mais fácil o desenvolvimento, administração e automação de recursos na nuvem AWS.
