@@ -80,3 +80,15 @@ O AWS Credentials Report é um relatório gerado periodicamente que fornece info
 - Tomada de Decisões Informadas: Ajuda a tomar decisões informadas sobre a gestão e o controle das credenciais de acesso, com base em dados concretos sobre o seu uso e atividade.
 
 Em resumo, o AWS Credentials Report é uma ferramenta importante para ajudar na gestão e na segurança das credenciais de acesso na sua conta da AWS, fornecendo insights valiosos e informações detalhadas sobre o seu uso e atividade.
+
+# Access Advisor
+
+O AWS Access Advisor é uma ferramenta que fornece recomendações sobre permissões de acesso para os recursos da AWS em sua conta. Em resumo, ele serve para:
+
+- Análise de Permissões: Avaliar as permissões atribuídas aos usuários, grupos e funções em sua conta da AWS.
+Identificação de Permissões Não Utilizadas: Identificar permissões que não são utilizadas por usuários ou entidades, ajudando a reduzir a superfície de ataque e manter a segurança.
+- Recomendações de Segurança: Oferecer recomendações específicas sobre quais permissões podem ser revogadas com segurança com base na análise de uso.
+Melhoria da Postura de Segurança: Ajudar a melhorar a postura de segurança da sua conta AWS ao garantir que as permissões sejam configuradas de forma adequada e mínima.
+- Suporte à Conformidade: Auxiliar na conformidade com as melhores práticas de segurança, políticas internas e regulamentações externas, garantindo uma configuração de permissões alinhada com os requisitos de segurança.
+
+Em resumo, o AWS Access Advisor serve como uma ferramenta de análise e recomendação para ajudar a otimizar as permissões de acesso em sua conta AWS, promovendo uma postura de segurança mais robusta e alinhada com as melhores práticas de segurança.
