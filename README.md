@@ -68,3 +68,15 @@ Em resumo, o AWS CloudShell é um ambiente de linha de comando interativo basead
 - Ambiente Seguro: Executa em uma instância efêmera e isolada da AWS, garantindo segurança e isolamento para as operações realizadas no CloudShell.
 
 Em resumo, o AWS CloudShell proporciona um ambiente de linha de comando conveniente, seguro e pré-configurado para interagir com os serviços da AWS diretamente no navegador web, tornando mais fácil o desenvolvimento, administração e automação de recursos na nuvem AWS.
+
+# Credential Report
+
+O AWS Credentials Report é um relatório gerado periodicamente que fornece informações detalhadas sobre o uso das credenciais de acesso na sua conta da AWS. Em resumo, ele serve para:
+
+- Auditoria de Credenciais: Permite acompanhar o uso e a atividade das credenciais de acesso, incluindo informações sobre quem está usando as credenciais e como elas estão sendo usadas.
+- Identificação de Riscos de Segurança: Ajuda a identificar possíveis riscos de segurança, como credenciais de acesso comprometidas ou usadas de forma inadequada.
+- Monitoramento de Conformidade: Facilita o monitoramento da conformidade com as políticas de segurança da sua organização, garantindo que as credenciais de acesso sejam usadas de acordo com as práticas recomendadas.
+- Análise de Utilização: Fornece insights sobre a utilização das credenciais de acesso, incluindo quais serviços da AWS estão sendo acessados e com que frequência.
+- Tomada de Decisões Informadas: Ajuda a tomar decisões informadas sobre a gestão e o controle das credenciais de acesso, com base em dados concretos sobre o seu uso e atividade.
+
+Em resumo, o AWS Credentials Report é uma ferramenta importante para ajudar na gestão e na segurança das credenciais de acesso na sua conta da AWS, fornecendo insights valiosos e informações detalhadas sobre o seu uso e atividade.
