@@ -18,6 +18,39 @@ Principais pontos sobre a infraestrutura global da AWS:
 
 Em resumo, a infraestrutura global da AWS é projetada para oferecer alta disponibilidade, escalabilidade e desempenho para uma ampla variedade de cargas de trabalho na nuvem, ajudando as empresas a inovar mais rapidamente e a escalar seus negócios globalmente.
 
+# Wavelenght
+
+O AWS Wavelength é uma extensão da infraestrutura da AWS, projetada para levar serviços de computação em nuvem para a borda das redes de telecomunicações. Aqui está um resumo sobre o AWS Wavelength:
+
+- Objetivo: O AWS Wavelength foi desenvolvido para atender às necessidades de aplicativos que requerem baixa latência, como jogos em tempo real, streaming de vídeo, aplicativos de realidade aumentada/virtual e serviços financeiros.
+
+- Integração com Operadoras de Telecomunicações: O AWS Wavelength integra os serviços da AWS diretamente com as redes de telecomunicações, permitindo que os desenvolvedores implantem aplicativos na borda das redes 5G das operadoras. Isso reduz significativamente a latência, pois os dados não precisam percorrer longas distâncias até os data centers da AWS.
+
+- Zonas de Disponibilidade Wavelength: O AWS Wavelength está disponível em zonas de disponibilidade especiais, chamadas de "Wavelength Zones", localizadas em instalações de telecomunicações próximas aos data centers da AWS. Isso permite que os aplicativos sejam executados o mais próximo possível dos usuários finais, reduzindo a latência e melhorando o desempenho.
+
+- APIs e Serviços Nativos da AWS: Os desenvolvedores podem usar as mesmas APIs e serviços nativos da AWS no AWS Wavelength, o que facilita o desenvolvimento e a implantação de aplicativos na borda da rede. Isso inclui serviços como o Amazon EC2, Amazon S3, Amazon DynamoDB, entre outros.
+
+- Benefícios: Ao utilizar o AWS Wavelength, os desenvolvedores podem oferecer experiências de usuário mais rápidas e responsivas, aproveitando a baixa latência das redes 5G e a proximidade física dos data centers da AWS. Isso é especialmente importante para aplicativos sensíveis à latência, como jogos, realidade virtual e serviços de vídeo em tempo real.
+
+Em resumo, o AWS Wavelength permite que os desenvolvedores implantem aplicativos na borda das redes de telecomunicações, aproveitando a baixa latência e a alta largura de banda das redes 5G para oferecer experiências de usuário mais rápidas e responsivas. Isso representa uma extensão importante da infraestrutura global da AWS, atendendo às demandas crescentes por serviços de nuvem na borda da rede.
+
+# Outposts
+
+O AWS Outposts é um serviço da Amazon Web Services (AWS) que estende a infraestrutura, serviços e ferramentas da AWS para o ambiente local de um cliente. Aqui está um resumo sobre o AWS Outposts:
+
+- Propósito: O AWS Outposts foi projetado para permitir que os clientes executem cargas de trabalho da AWS em seus próprios data centers ou em instalações co-localizadas, oferecendo uma extensão da nuvem pública da AWS para o ambiente local.
+
+- Infraestrutura Local: Com o AWS Outposts, a AWS entrega e instala racks de hardware em instalações do cliente, contendo servidores, armazenamento e outros componentes de infraestrutura necessários para executar serviços da AWS localmente.
+Compatibilidade com Serviços da AWS: O AWS Outposts oferece suporte a uma ampla gama de serviços da AWS, incluindo Amazon EC2, Amazon RDS, Amazon EBS e Amazon S3, permitindo que os clientes executem esses serviços localmente com a mesma experiência e APIs da AWS na nuvem pública.
+
+- Gerenciamento Simplificado: Os clientes podem gerenciar seus AWS Outposts por meio do Console de Gerenciamento da AWS, permitindo provisionamento, monitoramento e escalabilidade dos recursos locais da mesma maneira que na nuvem pública da AWS.
+Conectividade com a Nuvem Pública: O AWS Outposts é integrado à rede global da AWS, permitindo conectividade fácil e segura entre os recursos locais e os serviços na nuvem pública da AWS, possibilitando arquiteturas híbridas e distribuídas.
+
+- Casos de Uso: O AWS Outposts é adequado para organizações que têm requisitos específicos de segurança, latência ou regulamentares que exigem a execução de cargas de trabalho localmente, mas que também desejam aproveitar os benefícios da nuvem pública da AWS.
+
+- Flexibilidade: Os clientes podem escolher entre diferentes configurações de hardware para seus AWS Outposts, adaptando-se às necessidades específicas de suas cargas de trabalho, e também têm a opção de atualizar ou adicionar capacidade conforme necessário.
+
+Em resumo, o AWS Outposts é uma extensão da AWS que permite aos clientes executarem serviços da AWS em seus próprios data centers ou instalações co-localizadas, proporcionando flexibilidade, consistência e conectividade com a nuvem pública da AWS. Isso permite arquiteturas híbridas que combinam os benefícios da nuvem pública e a localização de dados sensíveis ou críticos.
 
 # IAM
 
