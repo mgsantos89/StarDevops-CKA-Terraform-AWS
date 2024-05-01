@@ -1,3 +1,24 @@
+# Infraestrutura Global
+
+A AWS é uma das principais provedoras de serviços de computação em nuvem, oferecendo uma ampla gama de serviços de infraestrutura e plataforma como serviço (IaaS e PaaS). Sua infraestrutura global é uma das mais extensas e avançadas do mundo, permitindo que empresas de todos os tamanhos executem suas cargas de trabalho na nuvem de forma eficiente e escalável.
+
+Principais pontos sobre a infraestrutura global da AWS:
+
+- Regiões: A AWS opera em diversas regiões ao redor do mundo. Uma região consiste em várias zonas de disponibilidade, que são data centers separados fisicamente dentro de uma área geográfica para redundância e resiliência.
+
+- Zonas de Disponibilidade: Cada região da AWS possui múltiplas zonas de disponibilidade (AZs), que são locais geograficamente separados com energia, resfriamento e rede independentes. Isso ajuda a garantir alta disponibilidade e tolerância a falhas.
+
+- Pontos de Presença (PoPs): Além das regiões e zonas de disponibilidade, a AWS também possui uma rede global de PoPs, que são instalações de infraestrutura de rede localizadas em diferentes partes do mundo. Esses PoPs ajudam a acelerar a entrega de conteúdo e reduzir a latência para os usuários finais.
+
+- Rede Global: A AWS possui uma das maiores e mais avançadas redes globais, com links de fibra óptica de alta velocidade que interconectam suas regiões, zonas de disponibilidade e PoPs em todo o mundo. Isso garante baixa latência e alta velocidade de transferência de dados entre os serviços da AWS e os usuários finais.
+
+- Edge Locations: Além dos PoPs, a AWS possui Edge Locations, que são locais de cache de conteúdo distribuídos globalmente para serviços como o Amazon CloudFront (CDN) e o AWS WAF (Firewall de Aplicações Web). Isso ajuda a melhorar o desempenho e a segurança de aplicativos distribuídos globalmente.
+
+- Serviços de Rede Avançados: A AWS oferece uma variedade de serviços de rede avançados, como o Amazon VPC (Virtual Private Cloud), que permite aos usuários criar redes virtuais isoladas na nuvem, e o AWS Direct Connect, que oferece conexões de rede dedicadas entre a infraestrutura local e a AWS.
+
+Em resumo, a infraestrutura global da AWS é projetada para oferecer alta disponibilidade, escalabilidade e desempenho para uma ampla variedade de cargas de trabalho na nuvem, ajudando as empresas a inovar mais rapidamente e a escalar seus negócios globalmente.
+
+
 # IAM
 
 O AWS Identity and Access Management (IAM) é um serviço da AWS que ajuda a controlar quem está autenticado (assinado) e autorizado (tem permissões) para usar os recursos da AWS.
