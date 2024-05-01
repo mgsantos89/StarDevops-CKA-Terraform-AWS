@@ -52,6 +52,28 @@ Conectividade com a Nuvem Pública: O AWS Outposts é integrado à rede global d
 
 Em resumo, o AWS Outposts é uma extensão da AWS que permite aos clientes executarem serviços da AWS em seus próprios data centers ou instalações co-localizadas, proporcionando flexibilidade, consistência e conectividade com a nuvem pública da AWS. Isso permite arquiteturas híbridas que combinam os benefícios da nuvem pública e a localização de dados sensíveis ou críticos.
 
+# Modelo de Reponsabilidade Compartilhada
+
+
+O modelo de responsabilidade compartilhada é um conceito fundamental na computação em nuvem, incluindo a Amazon Web Services (AWS), que define claramente as responsabilidades do provedor de serviços em nuvem (CSP) e do cliente em relação à segurança e conformidade dos dados e sistemas. Aqui está um resumo sobre o modelo de responsabilidade compartilhada na AWS:
+
+1 - Responsabilidades do Provedor de Serviços em Nuvem (CSP):
+-   A AWS é responsável pela segurança da infraestrutura global que sustenta os serviços em nuvem oferecidos aos clientes.
+- Isso inclui a segurança física dos data centers, a proteção da infraestrutura de rede, a segurança dos sistemas subjacentes (por exemplo, servidores, armazenamento) e a manutenção da conformidade com as regulamentações de segurança.
+- A AWS também é responsável pela segurança dos serviços essenciais, como computação, armazenamento, banco de dados e rede, garantindo que esses serviços sejam robustos, resilientes e protegidos contra ameaças comuns.
+
+2 - Responsabilidades do Cliente:
+- Os clientes da AWS são responsáveis pela segurança de tudo o que eles armazenam e processam na nuvem.
+- Isso inclui a configuração correta dos serviços da AWS para atender aos requisitos de segurança, a proteção dos dados armazenados na nuvem e o gerenciamento do acesso e identidade dos usuários.
+- Além disso, os clientes são responsáveis pela proteção de aplicativos e sistemas implantados na AWS, incluindo a aplicação de patches de segurança, a configuração adequada de firewalls e a implementação de controles de segurança.
+
+3 - Colaboração e Transparência:
+- O modelo de responsabilidade compartilhada é baseado na colaboração e transparência entre o CSP e o cliente.
+-  A AWS fornece ferramentas e recursos para ajudar os clientes a alcançar seus objetivos de segurança na nuvem, como controles de acesso, criptografia de dados, auditorias e monitoramento de segurança.
+- É importante que os clientes entendam claramente suas responsabilidades de segurança na nuvem e implementem as práticas recomendadas de segurança para garantir a proteção de seus dados e sistemas na AWS.
+
+Em resumo, o modelo de responsabilidade compartilhada na AWS define claramente as responsabilidades de segurança entre o provedor de serviços em nuvem (CSP) e o cliente, garantindo que ambos trabalhem juntos para proteger os dados e sistemas na nuvem de forma eficaz e compatível.
+
 # IAM
 
 O AWS Identity and Access Management (IAM) é um serviço da AWS que ajuda a controlar quem está autenticado (assinado) e autorizado (tem permissões) para usar os recursos da AWS.
