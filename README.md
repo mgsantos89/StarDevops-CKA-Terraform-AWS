@@ -168,3 +168,59 @@ Melhoria da Postura de Segurança: Ajudar a melhorar a postura de segurança da 
 - Suporte à Conformidade: Auxiliar na conformidade com as melhores práticas de segurança, políticas internas e regulamentações externas, garantindo uma configuração de permissões alinhada com os requisitos de segurança.
 
 Em resumo, o AWS Access Advisor serve como uma ferramenta de análise e recomendação para ajudar a otimizar as permissões de acesso em sua conta AWS, promovendo uma postura de segurança mais robusta e alinhada com as melhores práticas de segurança.
+
+# EC2
+Amazon Elastic Compute Cloud (EC2) é um serviço da AWS que oferece capacidade de computação escalável na nuvem. Ele serve para:
+
+- Provisionamento de Servidores Virtuais: Permite lançar e gerenciar servidores virtuais (também conhecidos como instâncias EC2) de forma rápida e flexível.
+
+- Elasticidade e Escalabilidade: Oferece a capacidade de aumentar ou diminuir dinamicamente a capacidade computacional de acordo com a demanda, garantindo escalabilidade automática.
+- Diversidade de Opções de Instância: Disponibiliza uma ampla variedade de tipos de instância com diferentes capacidades de CPU, memória, armazenamento e otimizações para diversos casos de uso.
+- Integração com Outros Serviços: Integra-se facilmente com outros serviços AWS, como armazenamento (por exemplo, Amazon S3), banco de dados (por exemplo, Amazon RDS), balanceamento de carga (por exemplo, Elastic Load Balancing), entre outros.
+- Flexibilidade de Configuração: Permite personalizar a configuração das instâncias, incluindo o sistema operacional, o tipo de armazenamento e as redes de segurança.
+- Modelo de Preços Sob Demanda e Flexível: Oferece opções de pagamento sob demanda, por instância reservada e por instância spot, permitindo otimizar os custos de acordo com as necessidades da carga de trabalho.
+
+Em resumo, o Amazon EC2 é um serviço fundamental da AWS que fornece capacidade computacional flexível e escalável na nuvem, permitindo executar uma ampla variedade de aplicativos e cargas de trabalho com eficiência e economia.
+
+# Tipos de Ec2
+
+
+O Amazon EC2 oferece uma ampla variedade de tipos de instâncias, cada uma projetada para atender a diferentes necessidades de computação. Aqui estão alguns dos tipos de instâncias EC2 mais comuns:
+
+- Geral Purpose (Propósito Geral): Essas instâncias oferecem um equilíbrio entre capacidade de computação, memória e armazenamento. São ideais para uma ampla variedade de cargas de trabalho, como aplicativos da web, servidores de desenvolvimento e testes, e pequenos bancos de dados.
+
+- Compute Optimized (Otimizado para Computação): Essas instâncias são projetadas para cargas de trabalho que exigem alto poder de processamento, como aplicativos de análise de dados, processamento em lotes e servidores de jogos.
+
+- Memory Optimized (Otimizado para Memória): Essas instâncias oferecem uma grande quantidade de memória RAM, tornando-as ideais para cargas de trabalho que exigem manipulação de grandes conjuntos de dados na memória, como bancos de dados em memória, análises em tempo real e processamento de Big Data.
+
+- Storage Optimized (Otimizado para Armazenamento): Essas instâncias são otimizadas para cargas de trabalho que exigem alto desempenho de armazenamento, como bancos de dados de alto desempenho, processamento de transações em tempo real e aplicativos de análise.
+
+- Accelerated Computing (Computação Acelerada): Essas instâncias são equipadas com aceleradores de hardware, como GPUs (Unidades de Processamento Gráfico) ou FPGAs (Matrizes de Porta Programável em Campo), e são ideais para cargas de trabalho que exigem processamento paralelo ou aceleração de hardware, como aprendizado de máquina, processamento de vídeo e simulações científicas.
+
+Além desses tipos principais, existem subcategorias e variações dentro de cada tipo de instância EC2, oferecendo uma gama ainda mais ampla de opções para atender a diferentes necessidades de computação.
+
+# Modelos de Aquisição de ec2
+
+Existem três modelos de aquisição de instâncias EC2 na AWS:
+
+- On-Demand Instances (Instâncias Sob Demanda): Com as instâncias sob demanda, você paga pelo tempo de computação que usar, sem compromissos de longo prazo ou taxas iniciais. Esse modelo é ideal para cargas de trabalho com uso imprevisível ou que precisam de flexibilidade total.
+
+- Reserved Instances (Instâncias Reservadas): As instâncias reservadas permitem que você faça um compromisso de uso de longo prazo em troca de uma taxa de uso reduzida em comparação com as instâncias sob demanda. Você pode optar por um período de um ou três anos e escolher entre instâncias reservadas padrão (com opções de pagamento total adiantado, parcial adiantado ou sem adiantamento) ou instâncias reservadas conversíveis (que permitem a flexibilidade de alterar a instância reservada durante o período de compromisso).
+
+- Spot Instances (Instâncias Spot): As instâncias spot permitem que você compre capacidade de computação não utilizada a preços significativamente reduzidos em comparação com as instâncias sob demanda. Você define o preço máximo que está disposto a pagar por uma instância e, quando o preço do mercado está abaixo desse valor, sua instância é iniciada. No entanto, elas podem ser interrompidas pela AWS com aviso prévio de dois minutos quando o preço do mercado excede o seu lance máximo.
+
+Cada modelo de aquisição tem suas próprias vantagens e é adequado para diferentes tipos de cargas de trabalho e necessidades de negócios. A escolha do modelo certo depende de fatores como previsibilidade de uso, orçamento e flexibilidade operacional.
+
+# Valores Ec2
+
+
+Os preços das instâncias EC2 podem variar dependendo de vários fatores, como o tipo de instância, a região da AWS em que ela é lançada, o modelo de aquisição (on-demand, reserved ou spot), a plataforma (Linux ou Windows), entre outros. Aqui está uma visão geral dos fatores que influenciam os preços das instâncias EC2:
+
+- Tipo de Instância: Cada tipo de instância EC2 tem seu próprio preço base, que varia com base na quantidade de CPU, memória, armazenamento e outros recursos oferecidos.
+
+- Modelo de Aquisição: O modelo de aquisição escolhido afeta o preço que você paga pela instância. Instâncias on-demand geralmente têm o preço mais alto por hora, enquanto instâncias reservadas e spot podem oferecer descontos significativos, dependendo do tipo de instância e do modelo de reserva.
+Região da AWS: Os preços das instâncias EC2 podem variar de uma região da AWS para outra. Regiões com maior demanda ou custos operacionais mais altos podem ter preços mais elevados.
+- Plataforma (Linux ou Windows): As instâncias EC2 executando sistemas operacionais Windows geralmente têm um custo adicional em comparação com as instâncias que executam sistemas operacionais baseados em Linux devido às licenças do Windows.
+- Uso de Recursos Adicionais: O uso de recursos adicionais, como armazenamento adicional, transferência de dados ou serviços complementares, pode resultar em custos adicionais além do preço base da instância EC2.
+
+Para obter informações detalhadas sobre os preços das instâncias EC2, recomenda-se consultar a página de preços da AWS, onde é possível visualizar os preços atuais por região, tipo de instância e modelo de aquisição.
