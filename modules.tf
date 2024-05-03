@@ -50,3 +50,18 @@ module "user-3-group-membership"{
     grupo = ["Desenvolvedores"]
 }
 
+module "web-server-ec2" {
+    source = "./modules/ec2"
+    prefixo_projeto = var.prefixo_projeto
+    tags = var.tags
+    key_name = "StarDevopsKey"
+    id-sg = module.network.id-sg
+}
+
+module "network" {
+  source = "./modules/network"
+  tags = var.tags
+  prefixo_projeto = var.prefixo_projeto
+  nome-sg = "webserver-ec2-sg"
+  nome-ec2 = "webserver-ec2"
+}
